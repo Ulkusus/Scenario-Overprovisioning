@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_AVQugI__Ee2yOZZgyxNVLg" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="overprovisioningResourceEnvironment.resourceenvironment#/"/>
+  <system_Allocation href="overprovisioningAssembly.system#_7saJgI_9Ee2yOZZgyxNVLg"/>
+  <allocationContexts_Allocation id="_HJai4I__Ee2yOZZgyxNVLg" entityName="Allocation_Assembly_CloudbasedService">
+    <resourceContainer_AllocationContext href="overprovisioningResourceEnvironment.resourceenvironment#_r9PFcI_-Ee2yOZZgyxNVLg"/>
+    <assemblyContext_AllocationContext href="overprovisioningAssembly.system#_E4_04I_-Ee2yOZZgyxNVLg"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

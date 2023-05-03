@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_7saJgI_9Ee2yOZZgyxNVLg" entityName="New System">
+  <assemblyContexts__ComposedStructure id="_E4_04I_-Ee2yOZZgyxNVLg" entityName="Assembly_CloudbasedService">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="overprovisioningRepository.repository#_tElkgI_9Ee2yOZZgyxNVLg"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_I6xoQI_-Ee2yOZZgyxNVLg" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_HmmDkI_-Ee2yOZZgyxNVLg" assemblyContext_ProvidedDelegationConnector="_E4_04I_-Ee2yOZZgyxNVLg">
+    <innerProvidedRole_ProvidedDelegationConnector href="overprovisioningRepository.repository#_yrTVYI_9Ee2yOZZgyxNVLg"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_HmmDkI_-Ee2yOZZgyxNVLg" entityName="ICloudbasedServiceProvidedRole">
+    <providedInterface__OperationProvidedRole href="overprovisioningRepository.repository#_nP8sYI_9Ee2yOZZgyxNVLg"/>
+  </providedRoles_InterfaceProvidingEntity>
+</system:System>
